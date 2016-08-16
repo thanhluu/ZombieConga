@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62458D01D63596A00F07856 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B62458CB1D63596A00F07856 /* backgroundMusic.mp3 */; };
+		B62458D11D63596A00F07856 /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B62458CC1D63596A00F07856 /* hitCat.wav */; };
+		B62458D21D63596A00F07856 /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = B62458CD1D63596A00F07856 /* hitCatLady.wav */; };
+		B62458D31D63596A00F07856 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = B62458CE1D63596A00F07856 /* lose.wav */; };
+		B62458D41D63596A00F07856 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = B62458CF1D63596A00F07856 /* win.wav */; };
 		B69114AE1D61EB57002BB2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69114AD1D61EB57002BB2FE /* AppDelegate.swift */; };
 		B69114B21D61EB57002BB2FE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69114B11D61EB57002BB2FE /* GameScene.swift */; };
 		B69114B41D61EB57002BB2FE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69114B31D61EB57002BB2FE /* GameViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62458CB1D63596A00F07856 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		B62458CC1D63596A00F07856 /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
+		B62458CD1D63596A00F07856 /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
+		B62458CE1D63596A00F07856 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		B62458CF1D63596A00F07856 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		B69114AA1D61EB57002BB2FE /* ZombieConga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieConga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69114AD1D61EB57002BB2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B69114B11D61EB57002BB2FE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -39,6 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62458CA1D63596A00F07856 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B62458CB1D63596A00F07856 /* backgroundMusic.mp3 */,
+				B62458CC1D63596A00F07856 /* hitCat.wav */,
+				B62458CD1D63596A00F07856 /* hitCatLady.wav */,
+				B62458CE1D63596A00F07856 /* lose.wav */,
+				B62458CF1D63596A00F07856 /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		B69114A11D61EB57002BB2FE = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +84,7 @@
 				B69114B11D61EB57002BB2FE /* GameScene.swift */,
 				B69114B31D61EB57002BB2FE /* GameViewController.swift */,
 				B69114B51D61EB57002BB2FE /* Main.storyboard */,
+				B62458CA1D63596A00F07856 /* Sounds */,
 				B69114B81D61EB57002BB2FE /* Assets.xcassets */,
 				B69114BA1D61EB57002BB2FE /* LaunchScreen.storyboard */,
 				B69114BD1D61EB57002BB2FE /* Info.plist */,
@@ -129,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69114BC1D61EB57002BB2FE /* LaunchScreen.storyboard in Resources */,
+				B62458D41D63596A00F07856 /* win.wav in Resources */,
+				B62458D11D63596A00F07856 /* hitCat.wav in Resources */,
 				B69114B91D61EB57002BB2FE /* Assets.xcassets in Resources */,
+				B62458D31D63596A00F07856 /* lose.wav in Resources */,
+				B62458D21D63596A00F07856 /* hitCatLady.wav in Resources */,
+				B62458D01D63596A00F07856 /* backgroundMusic.mp3 in Resources */,
 				B69114B71D61EB57002BB2FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +324,7 @@
 				B69114C21D61EB57002BB2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
